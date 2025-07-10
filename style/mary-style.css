@@ -1,0 +1,49 @@
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+       font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+/* share style: color */
+.text-primary{
+color: #FD6E0A;
+}
+/* button style */
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+   font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px 19px 36px;
+    border: none;
+    border-radius: 5px;
+
+}
+/* nav style */
+nav{
+    display: flex;
+    align-items: center; /*nav er modhe je item gulo thakbe segulo vertically center hobe*/;
+    justify-content: space-between; /*nav er modhe je item gulo thakbe segulo ek line e thakbe*/
+    margin: 0px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex; /*flex use korle list item gulo ek line e thakbe*/
+    align-items: center; /*list item gulo vertically center hobe*/
+    
+}
+nav ul li{
+    list-style: none; /*list ar je bullets thake seta thakbe na*/ 
+    margin-right: 50px;  
+  }
+nav ul li a{
+    text-decoration: none; /*link er underline thakbe na*/
+    }
+    .dark-2{
+        color: #474747;
+    }
