@@ -4,7 +4,7 @@
     font-optical-sizing: auto;
        font-style: normal;
     font-variation-settings:
-      "wdth" 100;
+      "width" 100px;
   }
 /* share style: color */
 .text-primary{
@@ -19,7 +19,12 @@ color: #FD6E0A;
     padding: 18px 35px 19px 36px;
     border: none;
     border-radius: 5px;
-
+}
+/*header style */
+.header{
+      background-image: url('../images/developer.png'), url('../images/header_bg.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
 }
 /* nav style */
 nav{
@@ -35,7 +40,7 @@ nav{
 nav ul{
     display: flex; /*flex use korle list item gulo ek line e thakbe*/
     align-items: center; /*list item gulo vertically center hobe*/
-    
+   
 }
 nav ul li{
     list-style: none; /*list ar je bullets thake seta thakbe na*/ 
@@ -46,4 +51,33 @@ nav ul li a{
     }
     .dark-2{
         color: #474747;
+    }
+    /* banner style */
+    .banner{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 38px 0 216px;
+    }
+    .banner-content{
+        max-width: 585px;
+        max-height: 356px;
+    }
+    .banner-title{
+        color: #181818;
+        font-size: 85px;
+        font-weight: bold;
+    }
+    .banner-hi{
+        color: #474747;
+        font-size: 45px;
+        font-weight:600px;
+    }
+    .banner-description{
+        color: #757575;
+        font-size: 18px;
+        font-weight: regular;
+    }
+   .banner-pic{
+        width: 584px;
+        height: 676px;
     }
