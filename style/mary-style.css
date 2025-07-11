@@ -10,7 +10,6 @@
 .text-primary{
 color: #FD6E0A;
 }
-.secondary-bg{}
 /* button style */
 .btn-primary{
     background-color: #FD6E0A;
@@ -23,6 +22,12 @@ color: #FD6E0A;
     font-weight: 700;
     color: #181818;
     margin: 0 0 20px 0;
+    text-align: center;
+}
+.section-description{
+    text-align: center;
+    justify-content: space-around;
+    margin: 0, 345px;
 }
 
 /*header style */
@@ -91,27 +96,46 @@ nav ul li a{
         max-width: 1140px;
         margin: 0 auto; /*main er modhe je content gulo thakbe segulo center e thakbe*/
     }
+    main section{
+        margin-top: 130px;
+        margin-bottom: 130px;
+    }
    
     /* about style */
   .about-items{
 display: flex;
 justify-content: space-between;
-line-height: 30px;
   }
   .item-title{
     color: #757575;
-    font-size: 20px
+    font-size: 20px;
     font-weight: regular;
   }
   .item-description{
     color: #757575;
     font-size: 20px;
     font-weight: bold;
-    line-height: 30px;
-  }
+    }
     .about{
         border-radius: 10px;
         padding: 130px 150px;
         text-align: center;
-        margin-top: 130px;
+        
+    }
+    /* skill-container */
+    .skills-container{
+       display: flex; 
+       gap: 24px;
+       }
+
+    .skill-name{
+        padding: 30px;
+        box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+        margin-top: none;
+        border-radius: 5px;  
+        }
+
+    .skills{
+        justify-content: space-around;
+        margin: 0, 345px;
     }
