@@ -10,16 +10,21 @@
 .text-primary{
 color: #FD6E0A;
 }
+.secondary-bg{}
 /* button style */
 .btn-primary{
     background-color: #FD6E0A;
-    color: white;
+    color: #181818;
    font-weight: 700;
-    font-size: 20px;
-    padding: 18px 35px 19px 36px;
-    border: none;
-    border-radius: 5px;
+    font-size: 35px;
+    }
+.section-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #181818;
+    margin: 0 0 20px 0;
 }
+
 /*header style */
 .header{
       background-image: url('../images/developer.png'), url('../images/header_bg.png');
@@ -80,4 +85,33 @@ nav ul li a{
    .banner-pic{
         width: 584px;
         height: 676px;
+    }
+   /*main styles */
+    main{
+        max-width: 1140px;
+        margin: 0 auto; /*main er modhe je content gulo thakbe segulo center e thakbe*/
+    }
+   
+    /* about style */
+  .about-items{
+display: flex;
+justify-content: space-between;
+line-height: 30px;
+  }
+  .item-title{
+    color: #757575;
+    font-size: 20px
+    font-weight: regular;
+  }
+  .item-description{
+    color: #757575;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+  }
+    .about{
+        border-radius: 10px;
+        padding: 130px 150px;
+        text-align: center;
+        margin-top: 130px;
     }
